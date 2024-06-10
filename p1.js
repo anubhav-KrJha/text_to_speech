@@ -17,7 +17,7 @@ convertBtn.addEventListener('click', function () {
         const newUtter =
             new SpeechSynthesisUtterance(enteredText);
         speechSynth.speak(newUtter);
-        convertBtn.textContent = "Sound is Paying..."
+        convertBtn.textContent = "Sound is Playing..."
     }
     
     setTimeout(() => {
